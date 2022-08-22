@@ -51,7 +51,7 @@ const Header = () => {
         mr="2"
       />
 
-      <Text>Bodie's Shop</Text>
+      <Text>Bodie&apos;s Shop</Text>
       <Flex ml="auto">
         <HStack>
           <Text>Inventory Control</Text>

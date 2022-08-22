@@ -1,0 +1,8 @@
+html, body {
+    background-color: #212121 !important;
+    background-image: url('https://images.unsplash.com/photo-1598266628171-7e00f76a27a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80') !important;
+	background-position: center !important; /* Center the image */
+	background-repeat: no-repeat !important; /* Do not repeat the image */
+	background-size: cover !important; /*Resize the background image to cover the entire container*/
+
+    }

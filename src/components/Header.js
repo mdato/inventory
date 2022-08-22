@@ -1,5 +1,4 @@
 import {
-  Avatar,
   Flex,
   HStack,
   Icon,
@@ -11,10 +10,6 @@ import React from "react";
 import { useSidebarContext } from "../contexts/SidebarContext";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineStock } from "react-icons/ai";
-import Image from 'next/image';
-
-import mypic from "./marca.jpg";
-
 
 const Header = () => {
   const isMobile = useBreakpointValue({
@@ -49,19 +44,17 @@ const Header = () => {
         ></IconButton>
       )}
 
-      {/* <Image src={mypic} width={'25%'} height={'25%'} mr={10} alt='foto' /> */}
-      <IconButton
-          icon={<Icon as={AiOutlineStock} />}
-          variant="unstyled"
-          fontSize="30"
-          mr="2"
-          />
+        <IconButton
+        icon={<Icon as={AiOutlineStock} />}
+        variant="unstyled"
+        fontSize="30"
+        mr="2"
+      />
 
       <Text>Bodie's Shop</Text>
       <Flex ml="auto">
         <HStack>
           <Text>Inventory Control</Text>
-          {/* <Avatar size="md" name="marcelo dato" /> */}
         </HStack>
       </Flex>
     </Flex>
